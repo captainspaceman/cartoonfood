@@ -51,7 +51,7 @@ p {
 
 img {
   width:100%;
-  max-width: 1200px;
+  max-width: 1400px;
 }
 
 #timeline {
@@ -120,6 +120,11 @@ header img {
     width: 50%;
     min-width: 300px;
     margin: auto;
+}
+
+.content-container a {
+  text-decoration: none;
+  color:#62C0E6;
 }
 
 /****** homepage nav styling*********/
