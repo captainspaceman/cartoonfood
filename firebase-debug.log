@@ -1,0 +1,41 @@
+[debug] [2018-08-23T03:36:46.516Z] ----------------------------------------------------------------------
+[debug] [2018-08-23T03:36:46.518Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-08-23T03:36:46.518Z] CLI Version:   3.19.3
+[debug] [2018-08-23T03:36:46.518Z] Platform:      darwin
+[debug] [2018-08-23T03:36:46.518Z] Node Version:  v8.11.2
+[debug] [2018-08-23T03:36:46.518Z] Time:          Wed Aug 22 2018 20:36:46 GMT-0700 (PDT)
+[debug] [2018-08-23T03:36:46.518Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-23T03:36:46.534Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-23T03:36:46.535Z] > authorizing via signed-in user
+[debug] [2018-08-23T03:36:46.537Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-08-23T03:36:46.537Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/IM8O_dITMjvPVhlRqn2NXRAN9G9LjUSvLe8zt0_QJb8',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Wed Aug 22 2018 20:36:46 GMT-0700 (PDT)
+[debug] [2018-08-23T03:36:46.723Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-23T03:36:46.730Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/cartoon-food-website  
+  
+ Wed Aug 22 2018 20:36:46 GMT-0700 (PDT)
+[debug] [2018-08-23T03:36:47.208Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-23T03:36:47.209Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/cartoon-food-website/tokens  
+  
+ Wed Aug 22 2018 20:36:47 GMT-0700 (PDT)
+[debug] [2018-08-23T03:36:47.791Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-23T03:36:47.792Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/cartoon-food-website  
+  
+ Wed Aug 22 2018 20:36:47 GMT-0700 (PDT)
+[debug] [2018-08-23T03:36:48.232Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/studiomacpro/Desktop/my-code/cartoonfood'...
+[info] 
+[debug] [2018-08-23T03:36:48.233Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/946637767561/clients/_:getWebAppConfig  
+  
+ Wed Aug 22 2018 20:36:48 GMT-0700 (PDT)
+[debug] [2018-08-23T03:36:48.637Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+
