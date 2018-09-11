@@ -36,3 +36,8 @@
 [debug] [2018-09-09T11:47:14.033Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/cartoon-food-website/uploads/-LLy92bO_gFJwz4QYLoY?fileCount=147&message=  
   
  Sun Sep 09 2018 04:47:14 GMT-0700 (PDT)
+[debug] [2018-09-09T11:59:14.310Z] Error: write EPIPE
+    at _errnoException (util.js:1022:11)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:880:14)
+[error] 
+[error] Error: Server Error. write EPIPE
