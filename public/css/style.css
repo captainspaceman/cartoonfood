@@ -385,6 +385,14 @@ mark.blue {
     background: none;
 }
 
+/***special color styling****/
+
+#black {
+  background-color:#343434;
+  width:100%;
+  max-width: 1600px;
+}
+
 
 /******************************/
 /*/article class styling
@@ -446,8 +454,8 @@ mark.blue {
 .image-right {
   max-width: 50%;
   float: right;
-  padding-top: 5%
-  padding-left:5%;
+  padding-top: 5%;
+  padding-left: 5%;
   padding-bottom:5%;
   clear: left;
 
@@ -671,9 +679,6 @@ padding: 3%;
 .right {
   float:right;
   text-align:left;
-
-  
-
 }
 
 .about-three {
@@ -963,5 +968,4 @@ footer {
     height: 55px;
     font-size: 14px;
 }
-
-
+}
