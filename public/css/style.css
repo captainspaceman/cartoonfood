@@ -801,8 +801,10 @@ form {
 }
 #contact-content {
   width:25%;
-    min-width: 300px;
+  min-width: 300px;
+  max-width: 350px;
   margin:0 auto;
+  padding-top:5%;
 }
 /***********************/
 /*end form style sheet*/
