@@ -102,7 +102,7 @@ header {
 #wrapper {
     max-width: 100%;
     margin: auto;
-    background-color: #fff;
+    background-color: #f8f8f8;
 }
 
 .content-container {
@@ -378,12 +378,13 @@ mark.blue {
 
 /***special color styling****/
 
-#black {
+/* #black {
   background-color:#343434;
   width:100%;
   max-width: 1600px;
   height: 100%;
-}
+  margin: auto 0;
+} */
 /******************************/
 /*/article class styling
 /******************************/
