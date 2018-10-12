@@ -102,13 +102,17 @@ header {
 #wrapper {
     max-width: 100%;
     margin: auto;
-    background-color: #E9ECEF;
+    background-color: #E9ECEF; 
+    /* background-color: #f8f8f8; */
 }
 
 .content-container {
-    width: 50%;
-    min-width: 300px;
-    margin: auto;
+  width: 50%;
+  max-width: 600px;
+  min-width: 300px;
+  margin: auto;
+  padding-bottom: 2%;
+  padding-top: 2%;
 }
 
 .content-container a {
@@ -378,13 +382,12 @@ mark.blue {
 
 /***special color styling****/
 
-/* #black {
+#black {
   background-color:#343434;
   width:100%;
-  max-width: 1600px;
   height: 100%;
   margin: auto 0;
-} */
+}
 /******************************/
 /*/article class styling
 /******************************/
@@ -541,6 +544,8 @@ footer a {
     margin-top: 50px;
     vertical-align: middle;
     overflow:hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
 .example h5 {
@@ -580,6 +585,8 @@ footer a {
     margin-top: 50px;
     vertical-align: middle;
     overflow:hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
 .wideexample h5 {
