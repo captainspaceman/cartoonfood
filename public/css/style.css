@@ -70,15 +70,6 @@ header {
   position: fixed;
 }
 
-header img {
-/*	margin-left:20px;
-	padding-top:20px;
-  padding-bottom:20px;
-	width: 50%;
-  max-width: 100px;
-  min-width: 90px;*/
-}
-
 /*******************/
 /* content styling
 /*******************/
@@ -256,7 +247,7 @@ aside a {
     /*background-color:#00DFFE;*/
     /*background-color:#87CFDA;*/
     padding: 200px 0px 200px 0px;
-	 text-align: center;
+	  text-align: center;
     height: 40%;
     /*background: url(../img/hero.png);*/ /*center center no-repeat fixed;*/
     /*position: relative;*/
@@ -370,7 +361,7 @@ aside a {
 }
 
 /**********************************/
-/*** mark text styling ***/
+/*** Specila color styling***/
 /********************************/
 
 mark.white {
@@ -391,9 +382,8 @@ mark.blue {
   background-color:#343434;
   width:100%;
   max-width: 1600px;
+  height: 100%;
 }
-
-
 /******************************/
 /*/article class styling
 /******************************/
@@ -424,14 +414,12 @@ mark.blue {
     line-height: 25px;
     list-style:lower-norwegian;
 }
+
 .article img {
     margin: auto;
     width:100%;
 }
-.article p {
-   /*margin: 10%;*/
-   /* overflow: hidden;*/
-}
+
 .article p a {
    font-size: 15px;
     font-weight: 600;
@@ -962,16 +950,6 @@ nav ul li:first-child:hover{
   cursor:pointer;
 }
 
-header img {
-/*  margin-left:20px;
-  padding-top:20px;
-  padding-bottom:20px;
-  width: 15%;
-  max-width: 100px;
-  min-width: 75px;*/
-}
-
-
 /**********************/
 /* mobile work page **/
 /********************/
@@ -1054,10 +1032,6 @@ footer {
   float:none;
   width:100%;
   min-width: 300px;
-}
-
-.about .secondary-cta {
-
 }
 
 /**********************************/
