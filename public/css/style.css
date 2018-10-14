@@ -99,10 +99,8 @@ header {
 }
 
 #wrapper {
-    max-width: 100%;
     margin: auto;
     background-color: #E9ECEF; 
-    /* background-color: #f8f8f8; */
 }
 
 .content-container {
@@ -579,7 +577,7 @@ footer a {
     background-color:#fff;
     border-radius: 5px;
     margin:0 auto;
-    width:100%;
+    width:85%;
     margin-bottom: 50px;
     margin-top: 50px;
     vertical-align: middle;
