@@ -63,8 +63,7 @@ img {
 
 header {
 	width:100%;
-/*  max-width: 1440px;*/
-	background-color:#fff;
+  background-color: rgba(355,355,355,.20);
   top:0px;
   position: fixed;
 }
@@ -73,27 +72,6 @@ header {
 /* content styling
 /*******************/
 
-.content {
-
-    padding-top:5%;
-    padding-left:5%;
-    padding-right:5%;
-    padding-bottom:5%;
-    margin:auto;
-    width:100%;
-    margin-bottom: 50px;
-    margin-top: 50px;
-    vertical-align: middle;
-    overflow:hidden;
-
-}
-
-.content p {
-  font-size: 15px;
-  color:#fff;
-  letter-spacing: -0px;
-  line-height: 25px;
-}
 
 #wrapper {
     margin: auto;
@@ -112,47 +90,6 @@ header {
   text-decoration: none;
   color:#62C0E6;
 }
-
-/****** homepage nav styling*********/
-
-nav {
-	float:right;
-  overflow: hidden;
-  padding-right: 50px;
-}
-nav ul {
-	list-style-type: none;
-	font-size: 14px;
-  font-weight: 300;
-}
-nav ul li {
-    float:left;
-}
-nav ul li a {
-    text-decoration: none;
-    color:#343434;
-    display: block;
-    padding: 10px 20px;
-}
-nav ul li a:hover {
-    color:#d8d8d8;
-    
-}
-nav ul li:first-child {
-    position: absolute;
-    background-color: transparent;
-    top: 30px;
-    right: 30px;
-    display: none;
-}
-
-#logo {
-    margin-left: 5%;
-    max-width: 25px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
 /**************************/
 /* end header styling
 /*************************/
@@ -430,48 +367,6 @@ mark.blue {
   width:100%;
   background-color:#005F6C; 
   height: 10px;
-}
-
-
-/*******************************/
-/*/footer styling**************/
-/*****************************/
-
-footer {
-	width:100%;
-	background-color:#343434;
-  height: 300px;
-	border-bottom:solid 5px rgba(52,52,52,.2);
-	border-top:solid 5px rgba(52,52,52,.2);
-
-	}
-footer ul {
-    list-style-type: none;
-}
-footer a {
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 15px;
-	 line-height: 2;
-    font-weight: 100;
-}
-.footer-col {
-    color:#ffffff;
-    font-size: 14px;
-	line-height: 2;
-    font-weight: 100;
-    margin-right:4.5%;
-}
-
-#footer-content {
-    margin-left:20%;
-    margin-top:3%;
-}
-#legal {
-    font-size: 10px;
-    color: #f8f8f8;
-    clear: both;
-    padding-left: 40px;
 }
 
 /******************************/
