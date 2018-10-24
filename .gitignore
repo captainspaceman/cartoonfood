@@ -1,5 +1,14 @@
-
-public/.DS_Store
+/.vscode
+node_modules
+/coverage
+/.nyc_output
+firebase-debug.log
+npm-debug.log
+package-lock.json
+yarn.lock
+.npmrc
+.DS_Store
+.idea
+*.iml
 *.log
 *.cache
-.firebase/hosting.cHVibGlj.cache
