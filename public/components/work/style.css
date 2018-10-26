@@ -29,7 +29,7 @@ body {
 .work {
     position: relative;
     width:100%;
-    padding:100px 0;
+    padding:50px 0;
 }
 
 .workGroup {
@@ -75,4 +75,27 @@ body {
   color:#fff;
   letter-spacing: -0px;
   line-height: 25px;
+}
+
+@media screen and (max-width:800px){
+    .workGroup {
+        grid-template-columns: repeat(2, auto);
+        max-width: 600px;
+        grid-row-gap: 2em;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .workGroup {
+        grid-template-columns: repeat(1, auto);
+        max-width: 320px;
+        grid-row-gap: 2em;
+        
+    }
+    .content-container {
+        width:80%;
+        margin: 0 auto;
+        text-align:center;
+        padding-top: 30px;
+      }
 }

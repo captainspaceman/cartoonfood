@@ -713,12 +713,11 @@ form {
 /*****************/
 
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:400px) {
 
-.about {
+#homeTimeline {
   display: none;
 }
-    
 .wrapper {
     position: relative;
 }
@@ -749,10 +748,6 @@ form {
     max-width: 300px;
     margin: auto;
   }
-
-/*  .about {
-    display: none;
-  }*/
 
 
 /***********************/
@@ -806,27 +801,6 @@ nav ul li:first-child:hover{
   width: 100%;
   height: 180px;
 }
-
-
-/*****************************************/
-/* mobile footer*/
-/***************************************/
-
-
-footer {
-    
-  height: 100%;
-  clear:both;
-	} 
-  .footer-col {
-    float:none;
-  }
-
-  #footer-content {
-    margin-left:0;
-    margin-top:3%;
-  }
-
 
 /*********************************/
 /* mobile article*/
