@@ -214,6 +214,7 @@ aside a {
     text-align: center;
     margin: auto;
     transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1.0);
+    box-shadow: 0 2px 2px rgba(0,0,0,0.15), 0 2px 2px rgba(0,0,0,0.15);
 
 }
 
