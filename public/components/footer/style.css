@@ -36,7 +36,8 @@ footer a {
 }
 
 #footer-content {
-    margin-left:10%;
+    margin-left: 10%;
+    padding-top: 5%;
 }
 #legal {
     font-size: 10px;
