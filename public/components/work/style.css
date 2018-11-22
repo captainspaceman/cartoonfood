@@ -49,12 +49,6 @@ body {
     padding-top: 10%;
     width: 100%;
   }
-
-.content-container {
-    width: 33%;
-    margin: 0 auto;
-    text-align:center;
-  }
   
 .content-container a {
     text-decoration: none;
