@@ -49,14 +49,6 @@ p {
     line-height: 25px;
 }
 
-img {
-  width:100%;
-}
-
-#timeline {
-  width: 100%;
-}
-
 /*******************/
 /* header styling
 /*******************/
@@ -74,6 +66,7 @@ header {
 
 #timeline {
   padding: 8% 12% 2% 10%;
+  width:100%;
 }
 
 /*******************/
