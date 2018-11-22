@@ -69,6 +69,14 @@ header {
 }
 
 /*******************/
+/* homepage styling
+/*******************/
+
+#timeline {
+  padding: 8% 12% 2% 10%;
+}
+
+/*******************/
 /* content styling
 /*******************/
 
@@ -78,7 +86,6 @@ header {
 }
 
 .content-container {
-  width: 50%;
   max-width: 600px;
   min-width: 300px;
   margin: auto;
