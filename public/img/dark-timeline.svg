@@ -4,8 +4,8 @@
     <title>dark-timeline</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <path d="M141.5,598 L141.5,629" id="path-1"></path>
-        <filter x="-450.0%" y="-12.9%" width="1000.0%" height="138.7%" filterUnits="objectBoundingBox" id="filter-2">
+        <path d="M141.5,598 L141,633" id="path-1"></path>
+        <filter x="-475.7%" y="-11.4%" width="1051.4%" height="134.3%" filterUnits="objectBoundingBox" id="filter-2">
             <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
             <feOffset dx="0" dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
             <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
@@ -112,36 +112,36 @@
     </defs>
     <g id="dark-timeline" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <rect fill="#343434" x="0" y="0" width="800" height="690"></rect>
-        <path d="M74.7644935,126 L651.624933,126 C684.570597,126 711.278334,152.707737 711.278334,185.653401 L711.278334,185.653401 C711.278334,218.599065 684.570597,245.306802 651.624933,245.306802 L134.925545,245.306802 C101.699514,245.306802 74.7644935,272.241822 74.7644935,305.467853 L74.7644935,305.467853 C74.7644935,338.693885 101.699514,365.628905 134.925545,365.628905 L628.343883,365.628905 L653.82613,365.628905 C686.506956,365.628905 713,392.121949 713,424.802775 L713,424.802775 C713,457.483601 686.506956,483.976646 653.82613,483.976646 L132,483.976646 C98.862915,483.976646 72,510.839561 72,543.976646 L72,545 C72,578.137085 98.862915,605 132,605 L384,605" id="Path-2-Copy" stroke="#8DD1F0" stroke-width="2"></path>
-        <path d="M128,130 L651,130 C681.927946,130 707,155.072054 707,186 L707,186 C707,216.927946 681.927946,242 651,242 L440.17681,242" id="Line-2-Copy" stroke="#C7F464" stroke-width="2" stroke-linecap="square"></path>
-        <path d="M403.232179,248 L660.117834,248 C691.532987,248 717,273.467013 717,304.882166 L717,304.882166 C717,336.297318 691.532987,361.764332 660.117834,361.764332 L137.369645,361.764332 L137.369645,361.764332 C104.580696,361.764332 78,388.345027 78,421.133977 L78,425.382166 C78,460.517325 106.482675,489 141.617834,489 L302.282128,489" id="Line-2-Copy-2" stroke="#FF6B6A" stroke-width="2" stroke-linecap="square" transform="translate(397.500000, 368.500000) scale(-1, 1) translate(-397.500000, -368.500000) "></path>
-        <text id="2006-copy" font-family="Helvetica" font-size="10" font-weight="normal" fill="#FFFFFF">
-            <tspan x="58" y="105">2006</tspan>
+        <path d="M74.7644935,126 L651.624933,126 C684.570597,126 711.278334,152.707737 711.278334,185.653401 L711.278334,185.653401 C711.278334,218.599065 684.570597,245.306802 651.624933,245.306802 L134.925545,245.306802 C101.699514,245.306802 74.7644935,272.241822 74.7644935,305.467853 L74.7644935,305.467853 C74.7644935,338.693885 101.699514,365.628905 134.925545,365.628905 L628.343883,365.628905 L656,365.628905 C687.480231,365.628905 713,391.148674 713,422.628905 L713,424.802775 C713,457.483601 686.506956,483.976646 653.82613,483.976646 L132,483.976646 C98.862915,483.976646 72,510.839561 72,543.976646 L72,545 C72,578.137085 98.862915,605 132,605 L384,605" id="Path-2-Copy" stroke="#8DD1F0" stroke-width="2"></path>
+        <path d="M128,129 L653,129 C683.375661,129 708,153.624339 708,184 L708,185.5 C708,216.704088 682.704088,242 651.5,242 L440.715975,242" id="Line-2-Copy" stroke="#C7F464" stroke-width="2" stroke-linecap="square"></path>
+        <path d="M402.723209,249 L659.117834,249 C690.532987,249 716,274.467013 716,305.882166 L716,305.882166 C716,337.297318 690.532987,362.764332 659.117834,362.764332 L137.276735,362.764332 L137.276735,362.764332 C104.539098,362.764332 78,389.30343 78,422.041067 L78,425 C78,459.241654 105.758346,487 140,487 L301,487" id="Line-2-Copy-2" stroke="#FF6B6A" stroke-width="2" stroke-linecap="square" transform="translate(397.000000, 368.000000) scale(-1, 1) translate(-397.000000, -368.000000) "></path>
+        <text id="2006" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="8" font-weight="300" fill="#FFFFFF">
+            <tspan x="60" y="104">2006</tspan>
         </text>
-        <text id="2009-copy" font-family="Helvetica" font-size="10" font-weight="normal" fill="#FFFFFF">
+        <text id="2009" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="8" font-weight="300" fill="#FFFFFF">
             <tspan x="734" y="190">2009</tspan>
         </text>
-        <text id="2015-copy" font-family="Helvetica" font-size="10" font-weight="normal" fill="#FFFFFF">
+        <text id="2015" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="8" font-weight="300" fill="#FFFFFF">
             <tspan x="735" y="429">2015</tspan>
         </text>
-        <text id="2012-copy" font-family="Helvetica" font-size="10" font-weight="normal" fill="#FFFFFF">
-            <tspan x="27" y="309">2012</tspan>
+        <text id="2012" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="8" font-weight="300" fill="#FFFFFF">
+            <tspan x="34" y="307">2012</tspan>
         </text>
         <path d="M496.505426,480 L385,480" id="Line-4-Copy" stroke="#D43789" stroke-width="1.6" stroke-linecap="square"></path>
-        <path d="M252.331702,602 L133.5,602 C101.743627,602 76,576.256373 76,544.5 L76,544.5 C76,512.743627 101.743627,487 133.5,487 L385,487" id="Line-5-Copy" stroke="#0098D1" stroke-width="2" stroke-linecap="square"></path>
-        <text id="Begins-Music-Career!" font-family="HelveticaNeue, Helvetica Neue" font-size="10" font-weight="normal" fill="#FFFFFF">
-            <tspan x="127" y="50">Begins</tspan>
+        <path d="M251.331702,602 L132.5,602 C100.743627,602 75,576.256373 75,544.5 L75,544.5 C75,512.743627 100.743627,487 132.5,487 L384,487" id="Line-5-Copy" stroke="#0098D1" stroke-width="2" stroke-linecap="square"></path>
+        <text id="Begins-Music-Career!" font-family="HelveticaNeue, Helvetica Neue" font-size="10" font-weight="normal" line-spacing="14" fill="#FFFFFF">
+            <tspan x="127" y="48">Begins</tspan>
             <tspan x="127" y="62">Music</tspan>
-            <tspan x="127" y="74">Career!</tspan>
+            <tspan x="127" y="76">Career!</tspan>
         </text>
-        <text id="Content-at-Wpromote" font-family="HelveticaNeue, Helvetica Neue" font-size="10" font-weight="normal" fill="#FFFFFF">
-            <tspan x="348.95" y="183">Content at </tspan>
-            <tspan x="346.02" y="195" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="bold">Wpromote</tspan>
+        <text id="Content-at-Wpromote" font-family="HelveticaNeue, Helvetica Neue" font-size="10" font-weight="normal" line-spacing="14" fill="#FFFFFF">
+            <tspan x="348.95" y="182">Content at </tspan>
+            <tspan x="346.02" y="196" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="bold">Wpromote</tspan>
         </text>
-        <text id="Ends-Music-Career!" font-family="HelveticaNeue, Helvetica Neue" font-size="10" font-weight="normal" fill="#FFFFFF">
-            <tspan x="438" y="171">Ends </tspan>
-            <tspan x="438" y="183">Music</tspan>
-            <tspan x="438" y="195">Career!</tspan>
+        <text id="Ends-Music-Career!" font-family="HelveticaNeue, Helvetica Neue" font-size="10" font-weight="normal" line-spacing="14" fill="#FFFFFF">
+            <tspan x="438" y="168">Ends </tspan>
+            <tspan x="438" y="182">Music</tspan>
+            <tspan x="438" y="196">Career!</tspan>
         </text>
         <path d="M129,120 L129,86" id="Line-Copy-7" stroke="#DFF6AE" stroke-width="1.6" stroke-linecap="square"></path>
         <path d="M395,241 L395,207" id="Line-Copy-8" stroke="#FF6B6A" stroke-width="1.6" stroke-linecap="square" transform="translate(395.000000, 224.000000) scale(-1, 1) translate(-395.000000, -224.000000) "></path>
@@ -152,46 +152,46 @@
         <circle id="Oval-Copy-6" stroke="#D43789" stroke-width="1.6" fill="#FFFFFF" cx="494" cy="484" r="5.2"></circle>
         <circle id="Oval-Copy-7" stroke="#0098D1" stroke-width="1.6" fill="#FFFFFF" cx="384" cy="484" r="5.2"></circle>
         <circle id="Oval-Copy-9" stroke="#FF6B6A" stroke-width="1.6" fill="#FFFFFF" cx="180" cy="364" r="5.2"></circle>
-        <text id="Establishes-Creative" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="10" font-weight="300" fill="#FFFFFF">
-            <tspan x="177" y="290">Establishes</tspan>
-            <tspan x="177" y="302">Creative Dept.</tspan>
-            <tspan x="177" y="314">at </tspan>
-            <tspan x="187.93" y="314" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="bold">Wpromote</tspan>
+        <text id="Establishes-Creative" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="10" font-weight="300" line-spacing="14" fill="#FFFFFF">
+            <tspan x="177" y="287">Establishes</tspan>
+            <tspan x="177" y="301">Creative Dept.</tspan>
+            <tspan x="177" y="315">at </tspan>
+            <tspan x="187.93" y="315" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="bold">Wpromote</tspan>
         </text>
-        <text id="Content-Strategy-at" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="10" font-weight="300" fill="#FFFFFF">
-            <tspan x="459.55" y="410">Content </tspan>
+        <text id="Content-Strategy-at" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="10" font-weight="300" line-spacing="14" fill="#FFFFFF">
+            <tspan x="459.55" y="408">Content </tspan>
             <tspan x="447.13" y="422">Strategy at</tspan>
-            <tspan x="461.43" y="434" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="bold">Inspire</tspan>
+            <tspan x="461.43" y="436" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="bold">Inspire</tspan>
         </text>
-        <text id="UX-at-TrueCar" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="10" font-weight="300" fill="#FFFFFF">
+        <text id="UX-at-TrueCar" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="10" font-weight="300" line-spacing="14" fill="#FFFFFF">
             <tspan x="361.48" y="422">UX at</tspan>
-            <tspan x="346.29" y="434" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="bold">TrueCar</tspan>
+            <tspan x="346.29" y="436" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="bold">TrueCar</tspan>
         </text>
         <path d="M366,122 L366,88" id="Line-Copy-11" stroke="#F5A623" stroke-width="0.8" stroke-linecap="square" stroke-dasharray="4,4" transform="translate(366.000000, 105.000000) scale(-1, 1) translate(-366.000000, -105.000000) "></path>
         <path d="M69,121.65 L366,121.35" id="Line-3-Copy-4" stroke="#F5A623" stroke-width="0.8" stroke-linecap="square" stroke-dasharray="4,4" transform="translate(217.500000, 121.500000) scale(1, -1) translate(-217.500000, -121.500000) "></path>
-        <path d="M182,479 L182,452 L259,452" id="Line-3-Copy-6" stroke="#F5A623" stroke-width="0.8" stroke-linecap="square" stroke-dasharray="4,4" transform="translate(220.500000, 465.500000) scale(1, -1) translate(-220.500000, -465.500000) "></path>
+        <path d="M182,479 L182,446 L259,446" id="Line-3-Copy-6" stroke="#F5A623" stroke-width="0.8" stroke-linecap="square" stroke-dasharray="4,4" transform="translate(220.500000, 462.500000) scale(1, -1) translate(-220.500000, -462.500000) "></path>
         <path d="M400,523 L400,490 L477,490" id="Line-3-Copy-6" stroke="#F5A623" stroke-width="0.8" stroke-linecap="square" stroke-dasharray="4,4"></path>
-        <text id="Graduates-CSULB" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="10" font-weight="300" line-spacing="12" fill="#FFFFFF">
-            <tspan x="363" y="64">Graduates </tspan>
-            <tspan x="363" y="76">CSULB</tspan>
+        <text id="Graduates-CSULB" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="10" font-weight="300" line-spacing="14" fill="#FFFFFF">
+            <tspan x="365" y="62">Graduates </tspan>
+            <tspan x="365" y="76" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="bold">CSULB</tspan>
         </text>
-        <text id="UX-at-General-Assemb" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="10" font-weight="300" fill="#FFFFFF">
-            <tspan x="399" y="537">UX</tspan>
-            <tspan x="399" y="549">at General</tspan>
-            <tspan x="399" y="561">Assembly (</tspan>
-            <tspan x="445.85" y="561" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="bold">GA</tspan>
-            <tspan x="460.29" y="561">)</tspan>
+        <text id="UX-at-General-Assemb" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="10" font-weight="300" line-spacing="14" fill="#FFFFFF">
+            <tspan x="399" y="541">UX</tspan>
+            <tspan x="399" y="555">at General</tspan>
+            <tspan x="399" y="569">Assembly (</tspan>
+            <tspan x="445.85" y="569" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="bold">GA</tspan>
+            <tspan x="460.29" y="569">)</tspan>
         </text>
-        <text id="Front-end-Web-Develo" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="10" font-weight="300" fill="#FFFFFF">
-            <tspan x="117.81" y="420">Front-end Web </tspan>
-            <tspan x="126.14" y="432">Development</tspan>
-            <tspan x="157.63" y="444">at </tspan>
-            <tspan x="168.56" y="444" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="bold">GA</tspan>
+        <text id="Front-end-Web-Develo" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="10" font-weight="300" line-spacing="14" fill="#FFFFFF">
+            <tspan x="117.81" y="408">Front-end Web </tspan>
+            <tspan x="126.14" y="422">Development</tspan>
+            <tspan x="157.63" y="436">at </tspan>
+            <tspan x="168.56" y="436" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="bold">GA</tspan>
         </text>
-        <text id="Javascript-at-GA" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="10" font-weight="300" fill="#FFFFFF">
-            <tspan x="138" y="644">Javascript</tspan>
-            <tspan x="138" y="656">at </tspan>
-            <tspan x="148.93" y="656" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="bold">GA</tspan>
+        <text id="Javascript-at-GA" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="10" font-weight="300" line-spacing="14" fill="#FFFFFF">
+            <tspan x="141" y="647">Javascript</tspan>
+            <tspan x="141" y="661">at </tspan>
+            <tspan x="151.93" y="661" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="bold">GA</tspan>
         </text>
         <g id="Group-4" transform="translate(242.000000, 3.000000)">
             <g id="Group-2" transform="translate(61.000000, 1.000000)" stroke-linecap="square" stroke-width="2">
@@ -219,11 +219,11 @@
         <path d="M296,109 L296,124" id="Line-3" stroke="#8DD1F0" stroke-width="1.6" stroke-linecap="square"></path>
         <path d="M69,109 L69,124" id="Line-3-Copy" stroke="#8DD1F0" stroke-width="1.6" stroke-linecap="square"></path>
         <path d="M514,109 L514,124" id="Line-3-Copy-2" stroke="#8DD1F0" stroke-width="1.6" stroke-linecap="square"></path>
-        <text id="2007" font-family="Helvetica" font-size="10" font-weight="normal" fill="#FFFFFF">
-            <tspan x="285" y="105">2007</tspan>
+        <text id="2007" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="8" font-weight="300" fill="#FFFFFF">
+            <tspan x="287" y="104">2007</tspan>
         </text>
-        <text id="2008" font-family="Helvetica" font-size="10" font-weight="normal" fill="#FFFFFF">
-            <tspan x="502" y="105">2008</tspan>
+        <text id="2008" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="8" font-weight="300" fill="#FFFFFF">
+            <tspan x="505" y="104">2008</tspan>
         </text>
         <path d="M296,229 L296,244" id="Line-3" stroke="#8DD1F0" stroke-width="1.6" stroke-linecap="square"></path>
         <path d="M67,297 L67,312" id="Line-3-Copy" stroke="#8DD1F0" stroke-width="1.6" stroke-linecap="square" transform="translate(67.000000, 304.500000) rotate(90.000000) translate(-67.000000, -304.500000) "></path>
@@ -234,32 +234,32 @@
         <path d="M296,349 L296,364" id="Line-3" stroke="#8DD1F0" stroke-width="1.6" stroke-linecap="square"></path>
         <path d="M296,468 L296,483" id="Line-3" stroke="#8DD1F0" stroke-width="1.6" stroke-linecap="square"></path>
         <path d="M514,349 L514,364" id="Line-3-Copy-2" stroke="#8DD1F0" stroke-width="1.6" stroke-linecap="square"></path>
-        <text id="2011" font-family="Helvetica" font-size="10" font-weight="normal" fill="#FFFFFF">
-            <tspan x="285" y="224">2011</tspan>
+        <text id="2011" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="8" font-weight="300" fill="#FFFFFF">
+            <tspan x="287" y="224">2011</tspan>
         </text>
-        <text id="2010" font-family="Helvetica" font-size="10" font-weight="normal" fill="#FFFFFF">
-            <tspan x="504" y="226">2010</tspan>
+        <text id="2010" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="8" font-weight="300" fill="#FFFFFF">
+            <tspan x="505" y="225">2010</tspan>
         </text>
-        <text id="2013" font-family="Helvetica" font-size="10" font-weight="normal" fill="#FFFFFF">
-            <tspan x="285" y="345">2013</tspan>
+        <text id="2013" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="8" font-weight="300" fill="#FFFFFF">
+            <tspan x="287" y="344">2013</tspan>
         </text>
-        <text id="2014" font-family="Helvetica" font-size="10" font-weight="normal" fill="#FFFFFF">
-            <tspan x="503" y="346">2014</tspan>
+        <text id="2014" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="8" font-weight="300" fill="#FFFFFF">
+            <tspan x="505" y="345">2014</tspan>
         </text>
         <path d="M514,468 L514,483" id="Line-3-Copy-2" stroke="#8DD1F0" stroke-width="1.6" stroke-linecap="square"></path>
-        <text id="2017" font-family="Helvetica" font-size="10" font-weight="normal" fill="#FFFFFF">
-            <tspan x="285" y="464">2017</tspan>
+        <text id="2017" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="8" font-weight="300" fill="#FFFFFF">
+            <tspan x="287" y="463">2017</tspan>
         </text>
         <path d="M296,588 L296,603" id="Line-3" stroke="#8DD1F0" stroke-width="1.6" stroke-linecap="square"></path>
         <path d="M296,557 L296,572" id="Line-3" stroke="#8DD1F0" stroke-width="1.6" stroke-linecap="square"></path>
-        <text id="2019" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="10" font-weight="300" fill="#FFFFFF">
-            <tspan x="285" y="584">2019</tspan>
+        <text id="2019" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="8" font-weight="300" fill="#FFFFFF">
+            <tspan x="287" y="583">2019</tspan>
         </text>
-        <text id="2018" font-family="Helvetica" font-size="10" font-weight="normal" fill="#FFFFFF">
-            <tspan x="28" y="548">2018</tspan>
+        <text id="2018" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="8" font-weight="300" fill="#FFFFFF">
+            <tspan x="31" y="548">2018</tspan>
         </text>
-        <text id="2016" font-family="Helvetica" font-size="10" font-weight="normal" fill="#FFFFFF">
-            <tspan x="503" y="465">2016</tspan>
+        <text id="2016" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="8" font-weight="300" fill="#FFFFFF">
+            <tspan x="505" y="464">2016</tspan>
         </text>
         <circle id="Oval-Copy-5" stroke="#FF6B6A" stroke-width="1.6" fill="#FFFFFF" cx="395" cy="245" r="5.2"></circle>
         <circle id="Oval-Copy-11" stroke="#8DD1F0" stroke-width="1.6" fill="#FFFFFF" cx="69" cy="125" r="5.2"></circle>
@@ -268,15 +268,15 @@
             <path d="M6,42.4 L6,8" id="Line-Copy-10" stroke-linecap="square" transform="translate(6.000000, 25.200000) scale(-1, -1) translate(-6.000000, -25.200000) "></path>
             <circle id="Oval-Copy-7" fill="#FFFFFF" cx="6" cy="6" r="5.2"></circle>
         </g>
-        <text id="Content-Strategy-at" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="10" font-weight="300" fill="#FFFFFF">
-            <tspan x="214.55" y="533">Content </tspan>
-            <tspan x="202.13" y="545">Strategy at  </tspan>
-            <tspan x="210.49" y="557" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="bold">GoodRx</tspan>
+        <text id="Content-Strategy-at" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="10" font-weight="300" line-spacing="14" fill="#FFFFFF">
+            <tspan x="214.55" y="532">Content </tspan>
+            <tspan x="202.13" y="546">Strategy at  </tspan>
+            <tspan x="210.49" y="560" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="bold">GoodRx</tspan>
         </text>
-        <text id="Daily-UX-Writing-Cha" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="10" font-weight="300" fill="#FFFFFF">
-            <tspan x="245.26" y="653">Daily UX</tspan>
-            <tspan x="251.19" y="665">Writing</tspan>
-            <tspan x="238.39" y="677">Challenge</tspan>
+        <text id="Daily-UX-Writing-Cha" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="10" font-weight="300" line-spacing="14" fill="#FFFFFF">
+            <tspan x="245.26" y="648">Daily UX</tspan>
+            <tspan x="251.19" y="662">Writing</tspan>
+            <tspan x="238.39" y="676">Challenge</tspan>
         </text>
         <path d="M141,544 L132.935435,544 C103.147717,544 79,568.176624 79,598 L79,598" id="Path" stroke="#CE8F26" stroke-dasharray="4" fill-rule="nonzero" transform="translate(110.000000, 571.000000) scale(1, -1) translate(-110.000000, -571.000000) "></path>
         <g id="Path-4" stroke-dasharray="4" fill-rule="nonzero">
@@ -291,12 +291,12 @@
             <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
             <use stroke="#F5A623" stroke-width="2" xlink:href="#path-5"></use>
         </g>
-        <text id="And-that-brings-us-u" font-family="HelveticaNeue, Helvetica Neue" font-size="10" font-weight="normal" line-spacing="12">
-            <tspan x="434" y="625" fill="#FFFFFF">And that brings us up to today. </tspan>
-            <tspan x="434" y="637" fill="#FFFFFF">Right now. Right this very second.</tspan>
-            <tspan x="586.98" y="637" fill="#343434"></tspan>
-            <tspan x="434" y="649" fill="#8DD1F0">This is us. </tspan>
-            <tspan x="481.42" y="649" fill="#FFFFFF">Cool, right?</tspan>
+        <text id="And-that-brings-us-u" font-family="HelveticaNeue, Helvetica Neue" font-size="10" font-weight="normal" line-spacing="14">
+            <tspan x="441" y="620" fill="#FFFFFF">And that brings us up to today. </tspan>
+            <tspan x="441" y="634" fill="#FFFFFF">Right now. Right this very second.</tspan>
+            <tspan x="593.98" y="634" fill="#343434"></tspan>
+            <tspan x="441" y="648" fill="#8DD1F0">This is us. </tspan>
+            <tspan x="488.42" y="648" fill="#FFFFFF">Cool, right?</tspan>
         </text>
         <g id="Group-3" transform="translate(383.500000, 605.500000) scale(-1, -1) translate(-383.500000, -605.500000) translate(377.000000, 599.000000)" fill="#FFFFFF" stroke="#8DD1F0" stroke-width="1.6">
             <circle id="Oval-Copy-13" cx="6.21054687" cy="6.12059437" r="5.2"></circle>
@@ -325,14 +325,14 @@
         <g id="Group-3" transform="translate(426.000000, 645.000000) scale(-1, -1) translate(-426.000000, -645.000000) translate(421.000000, 640.000000)" fill="#FFFFFF" stroke="#8DD1F0" stroke-width="1.6">
             <circle id="Oval-Copy-13" cx="4.77734375" cy="4.70814951" r="3.81538462"></circle>
         </g>
-        <text id="Has-First-Child" font-family="HelveticaNeue, Helvetica Neue" font-size="6" font-weight="normal" fill="#FFFFFF">
-            <tspan x="293" y="535">Has</tspan>
-            <tspan x="293" y="542" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="bold">First</tspan>
-            <tspan x="305.774" y="542"> Child</tspan>
+        <text id="Has-First-Child" font-family="HelveticaNeue, Helvetica Neue" font-size="10" font-weight="normal" line-spacing="14" fill="#FFFFFF">
+            <tspan x="293" y="523">Has</tspan>
+            <tspan x="293" y="537" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="bold">First</tspan>
+            <tspan x="314.29" y="537"> Child</tspan>
         </text>
-        <text id="Gets-Married" font-family="HelveticaNeue, Helvetica Neue" font-size="6" font-weight="normal" fill="#FFFFFF">
-            <tspan x="67" y="470">Gets</tspan>
-            <tspan x="67" y="477" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="bold">Married</tspan>
+        <text id="Gets-Married" font-family="HelveticaNeue, Helvetica Neue" font-size="10" font-weight="normal" line-spacing="14" fill="#FFFFFF">
+            <tspan x="67" y="459">Gets</tspan>
+            <tspan x="67" y="473" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="bold">Married</tspan>
         </text>
     </g>
 </svg>
