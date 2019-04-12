@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="656px" viewBox="0 0 800 656" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>dark-timeline</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M136.5,564 L136.5,595" id="path-1"></path>
+        <filter x="-450.0%" y="-12.9%" width="1000.0%" height="138.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0" dy="3" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter2"></feMorphology>
+            <feOffset dx="0" dy="1" in="shadowSpreadOuter2" result="shadowOffsetOuter2"></feOffset>
+            <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0" dy="1" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter2" in2="shadowInner" operator="out" result="shadowOffsetOuter2"></feComposite>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M246,575.5 L379,575.5" id="path-3"></path>
+        <filter x="-4.1%" y="-400.0%" width="108.3%" height="1300.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0" dy="3" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter2"></feMorphology>
+            <feOffset dx="0" dy="1" in="shadowSpreadOuter2" result="shadowOffsetOuter2"></feOffset>
+            <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0" dy="1" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter2" in2="shadowInner" operator="out" result="shadowOffsetOuter2"></feComposite>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M288,567.5 L378.794922,567.5" id="path-5"></path>
+        <filter x="-6.0%" y="-400.0%" width="111.9%" height="1300.0%" filterUnits="objectBoundingBox" id="filter-6">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0" dy="3" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter2"></feMorphology>
+            <feOffset dx="0" dy="1" in="shadowSpreadOuter2" result="shadowOffsetOuter2"></feOffset>
+            <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0" dy="1" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter2" in2="shadowInner" operator="out" result="shadowOffsetOuter2"></feComposite>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <polyline id="path-7" points="379 578 379 612 421 612"></polyline>
+        <filter x="-13.1%" y="-13.2%" width="126.2%" height="138.2%" filterUnits="objectBoundingBox" id="filter-8">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0" dy="3" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter2"></feMorphology>
+            <feOffset dx="0" dy="1" in="shadowSpreadOuter2" result="shadowOffsetOuter2"></feOffset>
+            <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0" dy="1" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter2" in2="shadowInner" operator="out" result="shadowOffsetOuter2"></feComposite>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M291.5,573 L291.5,599" id="path-9"></path>
+        <filter x="-500.0%" y="-17.3%" width="1100.0%" height="150.0%" filterUnits="objectBoundingBox" id="filter-10">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0" dy="3" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter2"></feMorphology>
+            <feOffset dx="0" dy="1" in="shadowSpreadOuter2" result="shadowOffsetOuter2"></feOffset>
+            <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0" dy="1" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter2" in2="shadowInner" operator="out" result="shadowOffsetOuter2"></feComposite>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="dark-timeline" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#343434" x="0" y="0" width="800" height="656"></rect>
+        <path d="M69.7644935,92 L646.624933,92 C679.570597,92 706.278334,118.707737 706.278334,151.653401 L706.278334,151.653401 C706.278334,184.599065 679.570597,211.306802 646.624933,211.306802 L129.925545,211.306802 C96.6995137,211.306802 69.7644935,238.241822 69.7644935,271.467853 L69.7644935,271.467853 C69.7644935,304.693885 96.6995137,331.628905 129.925545,331.628905 L623.343883,331.628905 L648.82613,331.628905 C681.506956,331.628905 708,358.121949 708,390.802775 L708,390.802775 C708,423.483601 681.506956,449.976646 648.82613,449.976646 L127,449.976646 C93.862915,449.976646 67,476.839561 67,509.976646 L67,511 C67,544.137085 93.862915,571 127,571 L379,571" id="Path-2-Copy" stroke="#8DD1F0" stroke-width="2"></path>
+        <path d="M123,96 L646,96 C676.927946,96 702,121.072054 702,152 L702,152 C702,182.927946 676.927946,208 646,208 L435.17681,208" id="Line-2-Copy" stroke="#C7F464" stroke-width="2" stroke-linecap="square"></path>
+        <path d="M398.232179,214 L655.117834,214 C686.532987,214 712,239.467013 712,270.882166 L712,270.882166 C712,302.297318 686.532987,327.764332 655.117834,327.764332 L132.369645,327.764332 L132.369645,327.764332 C99.5806957,327.764332 73,354.345027 73,387.133977 L73,391.382166 C73,426.517325 101.482675,455 136.617834,455 L297.282128,455" id="Line-2-Copy-2" stroke="#FF6B6A" stroke-width="2" stroke-linecap="square" transform="translate(392.500000, 334.500000) scale(-1, 1) translate(-392.500000, -334.500000) "></path>
+        <text id="2006-copy" font-family="Helvetica" font-size="10" font-weight="normal" fill="#FFFFFF">
+            <tspan x="53" y="71">2006</tspan>
+        </text>
+        <text id="2009-copy" font-family="Helvetica" font-size="10" font-weight="normal" fill="#FFFFFF">
+            <tspan x="729" y="156">2009</tspan>
+        </text>
+        <text id="2015-copy" font-family="Helvetica" font-size="10" font-weight="normal" fill="#FFFFFF">
+            <tspan x="730" y="395">2015</tspan>
+        </text>
+        <text id="2012-copy" font-family="Helvetica" font-size="10" font-weight="normal" fill="#FFFFFF">
+            <tspan x="22" y="275">2012</tspan>
+        </text>
+        <path d="M491.505426,446 L380,446" id="Line-4-Copy" stroke="#D43789" stroke-width="1.6" stroke-linecap="square"></path>
+        <path d="M247.331702,568 L128.5,568 C96.7436269,568 71,542.256373 71,510.5 L71,510.5 C71,478.743627 96.7436269,453 128.5,453 L380,453" id="Line-5-Copy" stroke="#0098D1" stroke-width="2" stroke-linecap="square"></path>
+        <text id="Begins-Music-Career!" font-family="Helvetica" font-size="12" font-weight="normal" fill="#FFFFFF">
+            <tspan x="122" y="11">Begins</tspan>
+            <tspan x="122" y="25">Music</tspan>
+            <tspan x="122" y="39">Career!</tspan>
+        </text>
+        <text id="Joins-Wpromote" font-family="Helvetica" font-size="12" font-weight="normal" fill="#FFFFFF">
+            <tspan x="362.986328" y="148">Joins</tspan>
+            <tspan x="335.652344" y="162">Wpromote</tspan>
+        </text>
+        <text id="Ends-Music-Career!" font-family="Helvetica" font-size="12" font-weight="normal" fill="#FFFFFF">
+            <tspan x="433" y="132">Ends </tspan>
+            <tspan x="433" y="146">Music</tspan>
+            <tspan x="433" y="160">Career!</tspan>
+        </text>
+        <path d="M124,86 L124,52" id="Line-Copy-7" stroke="#DFF6AE" stroke-width="1.6" stroke-linecap="square"></path>
+        <path d="M390,207 L390,173" id="Line-Copy-8" stroke="#FF6B6A" stroke-width="1.6" stroke-linecap="square" transform="translate(390.000000, 190.000000) scale(-1, 1) translate(-390.000000, -190.000000) "></path>
+        <path d="M488,446 L488,412" id="Line-Copy-9" stroke="#D43789" stroke-width="1.6" stroke-linecap="square" transform="translate(488.000000, 429.000000) scale(-1, 1) translate(-488.000000, -429.000000) "></path>
+        <path d="M379,446 L379,412" id="Line-Copy-10" stroke="#0098D1" stroke-width="1.6" stroke-linecap="square" transform="translate(379.000000, 429.000000) scale(-1, -1) translate(-379.000000, -429.000000) "></path>
+        <path d="M435,207 L435,173" id="Line-Copy-12" stroke="#DFF6AE" stroke-width="1.6" stroke-linecap="square"></path>
+        <path d="M175,325 L175,291" id="Line-Copy-13" stroke="#FD8483" stroke-width="1.6" stroke-linecap="square"></path>
+        <circle id="Oval-Copy-6" stroke="#D43789" stroke-width="1.6" fill="#FFFFFF" cx="489" cy="450" r="5.2"></circle>
+        <circle id="Oval-Copy-7" stroke="#0098D1" stroke-width="1.6" fill="#FFFFFF" cx="379" cy="450" r="5.2"></circle>
+        <circle id="Oval-Copy-9" stroke="#FF6B6A" stroke-width="1.6" fill="#FFFFFF" cx="175" cy="330" r="5.2"></circle>
+        <text id="Establishes-Creative" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="12" font-weight="300" fill="#FFFFFF">
+            <tspan x="172" y="250">Establishes</tspan>
+            <tspan x="172" y="265">Creative Dept.</tspan>
+            <tspan x="172" y="280">at </tspan>
+            <tspan x="185.116" y="280" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="bold">Wpromote</tspan>
+        </text>
+        <text id="Content-Strategy-at" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="12" font-weight="300" fill="#FFFFFF">
+            <tspan x="447.66" y="369">Content </tspan>
+            <tspan x="432.756" y="384">Strategy at</tspan>
+            <tspan x="449.916" y="399" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="bold">Inspire</tspan>
+        </text>
+        <text id="Content-&amp;-UX-at-True" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="12" font-weight="300" fill="#FFFFFF">
+            <tspan x="327.992" y="369">Content &amp;</tspan>
+            <tspan x="351.776" y="384">UX at </tspan>
+            <tspan x="333.548" y="399" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="bold">TrueCar</tspan>
+        </text>
+        <path d="M361,88 L361,54" id="Line-Copy-11" stroke="#F5A623" stroke-width="0.8" stroke-linecap="square" stroke-dasharray="4,4" transform="translate(361.000000, 71.000000) scale(-1, 1) translate(-361.000000, -71.000000) "></path>
+        <path d="M64,87.65 L361,87.35" id="Line-3-Copy-4" stroke="#F5A623" stroke-width="0.8" stroke-linecap="square" stroke-dasharray="4,4" transform="translate(212.500000, 87.500000) scale(1, -1) translate(-212.500000, -87.500000) "></path>
+        <path d="M177,445 L177,418 L254,418" id="Line-3-Copy-6" stroke="#F5A623" stroke-width="0.8" stroke-linecap="square" stroke-dasharray="4,4" transform="translate(215.500000, 431.500000) scale(1, -1) translate(-215.500000, -431.500000) "></path>
+        <path d="M395,489 L395,456 L472,456" id="Line-3-Copy-6" stroke="#F5A623" stroke-width="0.8" stroke-linecap="square" stroke-dasharray="4,4"></path>
+        <text id="Graduates-CSULB" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="10" font-weight="300" line-spacing="15" fill="#FFFFFF">
+            <tspan x="358" y="23">Graduates </tspan>
+            <tspan x="358" y="38">CSULB</tspan>
+        </text>
+        <text id="UX-at-General-Assemb" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="10" font-weight="300" fill="#FFFFFF">
+            <tspan x="394" y="503">UX</tspan>
+            <tspan x="394" y="515">at General</tspan>
+            <tspan x="394" y="527">Assembly (</tspan>
+            <tspan x="440.85" y="527" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="bold">GA</tspan>
+            <tspan x="455.29" y="527">)</tspan>
+        </text>
+        <text id="Front-end-Web-Develo" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="10" font-weight="300" fill="#FFFFFF">
+            <tspan x="112.81" y="386">Front-end Web </tspan>
+            <tspan x="121.14" y="398">Development</tspan>
+            <tspan x="152.63" y="410">at </tspan>
+            <tspan x="163.56" y="410" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="bold">GA</tspan>
+        </text>
+        <text id="Javascript-at-GA" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="10" font-weight="300" fill="#FFFFFF">
+            <tspan x="133" y="610">Javascript</tspan>
+            <tspan x="133" y="622">at </tspan>
+            <tspan x="143.93" y="622" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="bold">GA</tspan>
+        </text>
+        <g id="Group-2" transform="translate(718.500000, 43.500000) scale(1, -1) translate(-718.500000, -43.500000) translate(685.000000, 33.000000)" stroke-linecap="square" stroke-width="1.6">
+            <g id="work-lines">
+                <path d="M0.219672131,10.5142857 L66.1213115,10.5142857" id="Line-6-Copy-2" stroke="#FF6B6A"></path>
+                <path d="M0.219672131,1.37142857 L66.1213115,1.37142857" id="Line-6-Copy-2" stroke="#0098D1"></path>
+                <path d="M0.219672131,5.94285714 L66.1213115,5.94285714" id="Line-6-Copy-2" stroke="#DD5FA1"></path>
+                <path d="M0.219672131,15.0857143 L66.1213115,15.0857143" id="Line-6-Copy-2" stroke="#C7F464"></path>
+                <path d="M0.219672131,19.6714286 L66.1213115,19.6714286" id="Line-6-Copy-2" stroke="#FFEA4E"></path>
+            </g>
+        </g>
+        <path d="M685,10.5 L751,10.5" id="Line-7-Copy" stroke="#A2E2DE" stroke-linecap="square"></path>
+        <path d="M685,73.5 L751,73.5" id="Line-6-Copy-3" stroke="#F5A623" stroke-width="0.8" stroke-linecap="square" stroke-dasharray="4,4"></path>
+        <text id="Life-Work-School" font-family="Helvetica" font-size="12" font-weight="normal" line-spacing="16" fill="#FFFFFF">
+            <tspan x="656.652344" y="13">Life</tspan>
+            <tspan x="676" y="29"></tspan>
+            <tspan x="648.003906" y="45">Work</tspan>
+            <tspan x="676" y="61"></tspan>
+            <tspan x="639.308594" y="77">School</tspan>
+        </text>
+        <path d="" id="Path-2" stroke="#979797"></path>
+        <circle id="Oval-Copy-10" stroke="#C7F464" stroke-width="1.6" fill="#FFFFFF" cx="124" cy="91" r="5.2"></circle>
+        <path d="M291,75 L291,90" id="Line-3" stroke="#8DD1F0" stroke-width="1.6" stroke-linecap="square"></path>
+        <path d="M64,75 L64,90" id="Line-3-Copy" stroke="#8DD1F0" stroke-width="1.6" stroke-linecap="square"></path>
+        <path d="M509,75 L509,90" id="Line-3-Copy-2" stroke="#8DD1F0" stroke-width="1.6" stroke-linecap="square"></path>
+        <text id="2007" font-family="Helvetica" font-size="10" font-weight="normal" fill="#FFFFFF">
+            <tspan x="280" y="71">2007</tspan>
+        </text>
+        <text id="2008" font-family="Helvetica" font-size="10" font-weight="normal" fill="#FFFFFF">
+            <tspan x="497" y="71">2008</tspan>
+        </text>
+        <path d="M291,195 L291,210" id="Line-3" stroke="#8DD1F0" stroke-width="1.6" stroke-linecap="square"></path>
+        <path d="M62,263 L62,278" id="Line-3-Copy" stroke="#8DD1F0" stroke-width="1.6" stroke-linecap="square" transform="translate(62.000000, 270.500000) rotate(90.000000) translate(-62.000000, -270.500000) "></path>
+        <path d="M59,503 L59,518" id="Line-3-Copy" stroke="#8DD1F0" stroke-width="1.6" stroke-linecap="square" transform="translate(59.000000, 510.500000) rotate(90.000000) translate(-59.000000, -510.500000) "></path>
+        <path d="M716,144 L716,159" id="Line-3-Copy-3" stroke="#8DD1F0" stroke-width="1.6" stroke-linecap="square" transform="translate(716.000000, 151.500000) rotate(90.000000) translate(-716.000000, -151.500000) "></path>
+        <path d="M716,383 L716,398" id="Line-3-Copy-8" stroke="#8DD1F0" stroke-width="1.6" stroke-linecap="square" transform="translate(716.000000, 390.500000) rotate(90.000000) translate(-716.000000, -390.500000) "></path>
+        <path d="M509,195 L509,210" id="Line-3-Copy-2" stroke="#8DD1F0" stroke-width="1.6" stroke-linecap="square"></path>
+        <path d="M291,315 L291,330" id="Line-3" stroke="#8DD1F0" stroke-width="1.6" stroke-linecap="square"></path>
+        <path d="M291,434 L291,449" id="Line-3" stroke="#8DD1F0" stroke-width="1.6" stroke-linecap="square"></path>
+        <path d="M509,315 L509,330" id="Line-3-Copy-2" stroke="#8DD1F0" stroke-width="1.6" stroke-linecap="square"></path>
+        <text id="2011" font-family="Helvetica" font-size="10" font-weight="normal" fill="#FFFFFF">
+            <tspan x="280" y="190">2011</tspan>
+        </text>
+        <text id="2010" font-family="Helvetica" font-size="10" font-weight="normal" fill="#FFFFFF">
+            <tspan x="499" y="192">2010</tspan>
+        </text>
+        <text id="2013" font-family="Helvetica" font-size="10" font-weight="normal" fill="#FFFFFF">
+            <tspan x="280" y="311">2013</tspan>
+        </text>
+        <text id="2014" font-family="Helvetica" font-size="10" font-weight="normal" fill="#FFFFFF">
+            <tspan x="498" y="312">2014</tspan>
+        </text>
+        <path d="M509,434 L509,449" id="Line-3-Copy-2" stroke="#8DD1F0" stroke-width="1.6" stroke-linecap="square"></path>
+        <text id="2017" font-family="Helvetica" font-size="10" font-weight="normal" fill="#FFFFFF">
+            <tspan x="280" y="430">2017</tspan>
+        </text>
+        <path d="M291,554 L291,569" id="Line-3" stroke="#8DD1F0" stroke-width="1.6" stroke-linecap="square"></path>
+        <text id="2019" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="10" font-weight="300" fill="#FFFFFF">
+            <tspan x="280" y="550">2019</tspan>
+        </text>
+        <text id="2018" font-family="Helvetica" font-size="10" font-weight="normal" fill="#FFFFFF">
+            <tspan x="23" y="514">2018</tspan>
+        </text>
+        <text id="2016" font-family="Helvetica" font-size="10" font-weight="normal" fill="#FFFFFF">
+            <tspan x="498" y="431">2016</tspan>
+        </text>
+        <circle id="Oval-Copy-5" stroke="#FF6B6A" stroke-width="1.6" fill="#FFFFFF" cx="390" cy="211" r="5.2"></circle>
+        <circle id="Oval-Copy-11" stroke="#8DD1F0" stroke-width="1.6" fill="#FFFFFF" cx="64" cy="91" r="5.2"></circle>
+        <circle id="Oval-Copy-8" stroke="#C7F464" stroke-width="1.6" fill="#FFFFFF" cx="436" cy="211" r="5.2"></circle>
+        <path d="" id="Path-5" stroke="#979797"></path>
+        <g id="Group" transform="translate(244.000000, 556.500000) scale(1, -1) translate(-244.000000, -556.500000) translate(238.000000, 535.000000)" stroke="#FFEA4E" stroke-width="1.6">
+            <path d="M6,42.4 L6,8" id="Line-Copy-10" stroke-linecap="square" transform="translate(6.000000, 25.200000) scale(-1, -1) translate(-6.000000, -25.200000) "></path>
+            <circle id="Oval-Copy-7" fill="#FFFFFF" cx="6" cy="6" r="5.2"></circle>
+        </g>
+        <text id="Content-Strategy-at" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="12" font-weight="300" fill="#FFFFFF">
+            <tspan x="202.66" y="497">Content </tspan>
+            <tspan x="187.756" y="512">Strategy at  </tspan>
+            <tspan x="197.788" y="527" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="bold">GoodRx</tspan>
+        </text>
+        <text id="Daily-UX-Writing-Cha" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="12" font-weight="300" fill="#FFFFFF">
+            <tspan x="248.112" y="612">Daily UX</tspan>
+            <tspan x="255.228" y="627">Writing</tspan>
+            <tspan x="239.868" y="642">Challenge</tspan>
+        </text>
+        <path d="M136,510 L127.935435,510 C98.1477168,510 74,534.176624 74,564 L74,564" id="Path" stroke="#CE8F26" stroke-dasharray="4" fill-rule="nonzero" transform="translate(105.000000, 537.000000) scale(1, -1) translate(-105.000000, -537.000000) "></path>
+        <g id="Path-4" stroke-dasharray="4" fill-rule="nonzero">
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            <use stroke="#CE8F26" stroke-width="1" xlink:href="#path-1"></use>
+        </g>
+        <g id="Path-6" fill-rule="nonzero">
+            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+            <use stroke="#FFEA4E" stroke-width="2" xlink:href="#path-3"></use>
+        </g>
+        <g id="Path-6" fill-rule="nonzero">
+            <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+            <use stroke="#F5A623" stroke-width="2" xlink:href="#path-5"></use>
+        </g>
+        <path d="M684,30.5 L752,30.5" id="Path-6-Copy" stroke="#F5A623" stroke-width="1.6" fill-rule="nonzero"></path>
+        <text id="And-that-brings-us-u" font-family="HelveticaNeue, Helvetica Neue" font-size="12" font-weight="normal" line-spacing="16">
+            <tspan x="427" y="578" fill="#FFFFFF">And that brings us up to today. Right </tspan>
+            <tspan x="427" y="594" fill="#FFFFFF">now. Right this very second.</tspan>
+            <tspan x="579.016" y="594" fill="#343434"></tspan>
+            <tspan x="427" y="610" fill="#8DD1F0">This is us. </tspan>
+            <tspan x="483.904" y="610" fill="#FFFFFF">Cool, right?</tspan>
+        </text>
+        <g id="Group-3" transform="translate(378.500000, 571.500000) scale(-1, -1) translate(-378.500000, -571.500000) translate(372.000000, 565.000000)" fill="#FFFFFF" stroke="#8DD1F0" stroke-width="1.6">
+            <circle id="Oval-Copy-13" cx="6.21054687" cy="6.12059437" r="5.2"></circle>
+        </g>
+        <circle id="Oval-Copy-13" stroke="#F5A623" stroke-width="2" fill="#FFFFFF" transform="translate(291.000000, 568.000000) scale(-1, -1) translate(-291.000000, -568.000000) " cx="291" cy="568" r="5"></circle>
+        <g id="Path-7" fill-rule="nonzero">
+            <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+            <use stroke="#8DD1F0" stroke-width="2" xlink:href="#path-7"></use>
+        </g>
+        <g id="Path-8" fill-rule="nonzero">
+            <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-9"></use>
+            <use stroke="#F5A623" stroke-width="2" xlink:href="#path-9"></use>
+        </g>
+    </g>
+</svg>
